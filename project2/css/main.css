@@ -65,3 +65,34 @@
     grid-row: 1;
     position: relative;
 }
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background: #FFF
+}
+
+.sample-app-heading {
+    background: #33bEBE;
+    color: white;
+    font-family: "Apple SD Gothic Neo";
+    font-size: xx-large;
+    padding: 5px;
+}
+
+.sample-app-content {
+    display: grid;
+
+}
+
+.sample-content-text {
+    grid-column: 2;
+    padding: 5px;
+}
+
+.sample-content-image {
+    grid-column: 1;
+    padding: 5px;
+}
