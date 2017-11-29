@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<!--[if lte IE 9]>
+<!--[if lte IE 9]>git
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -37,17 +37,16 @@
             </g>
         </svg>
     </span>
-    <span class="app-heading">IPND - Project 2</span>
-    <div class="app-subheading">
-        <span class="app-subheading-1">Make a Stylish Web Page</span>
-        <span class="app-subheading-4">Name: Umair Khalid</span>
-    </div>
+    <span class="app-heading app-heading-top">IPND - Project 2</span>
+    <span class="app-subheading app-subheading-1">Make a Stylish Web Page</span>
+    <span class="app-subheading app-subheading-4">Name: Umair Khalid</span>
+
 
 </div>
 <hr/>
 <div class="content">
     <div class="content-table-of-contents">
-        <span class="content-toc-title">Contents</span>
+        <span class="title">Contents</span>
         <ol class="content-toc-body">
             <li><a href="#web-basics">Web Basics</a>
                 <ul>
@@ -71,9 +70,9 @@
     </div>
 
     <div class="content-body">
-        <div id="web-basics"><h3>Web Basics</h3>
+        <div id="web-basics">
+            <h3 class="title">Web Basics</h3>
             <span><strong>HTML</strong> is the main type of document on the web</span>
-            <br><br>
             <h5 id="web-file-types">File types servered by the Web</h5>
             <ul>
                 <li>Plain text</li>
@@ -92,17 +91,18 @@
             </ol>
         </div>
         <hr>
-        <div id="html-basics"><h3>HTML Basics</h3>
 
+        <div id="html-basics">
+            <h3 class="title">HTML Basics</h3>
 
-            <article><h5 id="html-dom">Document Object Model</h5>The Document Object Model (DOM) is a programming
+            <h5 id="html-dom">Document Object Model</h5>
+            <span>The Document Object Model (DOM) is a programming
                 interface for HTML and XML documents. It represents the page so that programs can change the document
                 structure, style and content. The DOM represents the document as nodes and objects. That way,
                 programming languages can connect to the page.
-            </article>
+            </span>
 
             <h5 id="html-components"><code>&lt;html&gt;</code> Components </h5><br>
-
             <table>
                 <thead>
                 <tr>
@@ -132,10 +132,10 @@
                     <td>Images <code>&lt;img&gt;</code></td>
                     <td>Allows web pages to show images</td>
                     <td>
-                        <figure class="figure">
+                        <figure>
                             <img src="https://avatars3.githubusercontent.com/u/2522678?s=400&v=4"
                                  class="figure-img img-fluid rounded" alt="Umair's GitHub profile picture">
-                            <figcaption class="figure-caption text-right">This is an image of Umair reference from
+                            <figcaption>This is an image of Umair reference from
                                 GitHub profile
                             </figcaption>
                         </figure>
@@ -173,8 +173,10 @@
             </table>
         </div>
         <hr>
-        <div id="css-basics"><h3>CSS Basics</h3>
-            <h5 id="css-structured-doc">Creating a Strucuted Document</h5>
+
+        <div id="css-basics">
+            <h3 class="title">CSS Basics</h3>
+            <h5 id="css-structured-doc">Creating a Structured Document</h5>
             <div>
                 <ul>
                     <li>HTML and CSS are both "languages"</li>
@@ -190,10 +192,11 @@
                     <li>Webpages can be broken down in boxes.</li>
                 </ul>
             </div>
+
+            <h5>Example:</h5>
             <div id="css-sample-app" class="content-example">
-                <h5>Example:</h5>
                 <div class="sample-app">
-                    <div class='sample-app-heading'>MY FAVORITE APP</div>
+                    <div class='app-heading'>MY FAVORITE APP</div>
                     <div class="sample-app-content">
                         <div class='sample-content-image'>
                             <img src="img/app.png" alt="sample image">
@@ -212,6 +215,7 @@
                 </div>
             </div>
         </div>
+        <hr>
     </div>
 </div>
 </body>
